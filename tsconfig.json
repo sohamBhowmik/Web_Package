@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap":true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/esm",
+    "declaration": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+		"jsx": "react",
+		"resolveJsonModule": true,
+  },
+  "include": [
+    "./src"
+  ]
+}

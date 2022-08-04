@@ -1,0 +1,28 @@
+{
+  "name": "soham_web_package",
+  "version": "1.0.0",
+  "description": "Readme",
+  "main": "./lib/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohamBhowmik/Web_Package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohamBhowmik/Web_Package/issues"
+  },
+  "homepage": "https://github.com/sohamBhowmik/Web_Package#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
